@@ -1,2 +1,2 @@
 # galerie
-lL galerie de touskitv
+La galerie de touskitv
