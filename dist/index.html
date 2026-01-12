@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ketarot</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<main id=app>
+
+<h1 id="titre"></h1>
+<div id="galerie-wrapper"></div>
+<script>
+
+const queryString = window.location.search;
+console.log(queryString);
+
+const urlParams = new URLSearchParams(queryString);
+
+
+states_dictionary2={ 
+  '01': "bleuet",
+  '02': "bottine",
+  '03': "Clown",
+  '04': "CrimeSoda",
+  '05': "conspipuppet",
+  '06': "evildead",
+  '07': "ensemble",
+  '08': "FDDLP0",
+  '09': "file_indienne",
+  '10': "friday",
+  '11': "gaudet",
+  '12': "godzilla",
+  '13': "groundhog",
+  '14': "guenilles",
+  '15': "hugo",
+  '16': "karma",
+  '17': "karltemblay",
+  '18': "lego",
+  '19': "lotr",
+  '20': "louiseville2024",
+  '21': "lynda",
+  '22': "mado",
+  '23': "maillet",
+  '24': "matrix",
+  '25': "mutevh",
+  '26': "napu",
+  '27': "nightmare",
+  '28': "orgonite_de_nowel",
+  '29': "orgonitebleu",
+  '30': "originaleorgonite",
+  '31': "peter",
+  '32': "PROBTECHNIQUES",
+  '33': "ptit_joel",
+  '34': "singerome",
+  '35': "starwars",
+  '36': "steve",
+  '37': "Stucco",
+  '38': "theremin",
+  '39': "trump",
+  '40': "trumpmask",
+  '41': "une_fois_au_chalet",
+  '42': "uvh",
+  '43': "Vitrail_UVH"
+}
+
+var viewer = urlParams.get('viewer').toLowerCase()
+
+//let text = "<h1>Collection de " + viewer + "</h1>";
+document.getElementById("titre").innerHTML = "<h1>Collection de " + viewer + "</h1>";
+let text =  '<section class="galerie">';
+
+console.log("File:: ./collectioninfo/"+ viewer +".json")
+
+
+async function Fetching() {
+  let text = '<section class="galerie">';
+
+  try {
+    const response = await fetch('./collectioninfo/' + viewer + '.json');
+
+    if (!response.ok) {
+      console.error('Erreur de chargement du JSON pour', viewer, response.status);
+      text += '<p class="error">Impossible de charger la collection.</p>';
+    } else {
+      const jsonData = await response.json();
+
+      console.log('Collection chargée pour :', viewer);
+
+      const totalCards = Object.keys(states_dictionary2).length;
+
+      for (let i = 1; i <= totalCards; i++) {
+        // 01, 02, 03, ..., 43
+        const znumber = (i < 10) ? '0' + i : i.toString();
+
+        // Nom clé dans le JSON, ex: "vitrai-uvh"
+        const cardKey = states_dictionary2[znumber];
+
+        // Par défaut → sans-cadre
+        let classe = 'sans-cadre';
+
+        // On regarde si cette clé existe dans le JSON
+        const entry = jsonData[cardKey];
+
+        if (Array.isArray(entry) && entry.length >= 3) {
+          const cadre  = entry[0] === 1; // [0] → cadre
+          const sketch = entry[1] === 1; // [1] → sketch
+          const oeuvre = entry[2] === 1; // [2] → oeuvre
+
+          // Priorité : oeuvre > sketch > cadre
+          if (oeuvre) {
+            classe = 'tableau oeuvre';
+          } else if (sketch) {
+            classe = 'tableau sketch';
+          } else if (cadre) {
+            classe = 'tableau cadre';
+          } else {
+            classe = 'sans-cadre';
+          }
+        }
+
+        console.log(`Affichage : ${classe} → ${cardKey} (c${znumber})`);
+
+        text += `
+          <div class="three-d-wrapper">
+            <div class="${classe} c${znumber} animated"></div>
+          </div>
+        `;
+      }
+    }
+  } catch (err) {
+    console.error('Erreur dans Fetching() :', err);
+    text += '<p class="error">Erreur interne lors du chargement des cartes.</p>';
+  }
+
+  text += '</section>';
+
+  // Injection dans le container (ID)
+  const wrapper = document.getElementById('galerie-wrapper');
+  if (wrapper) {
+    wrapper.innerHTML = text;
+  } else {
+    console.error('⚠️ Élément #galerie-wrapper introuvable dans le DOM.');
+  }
+}
+
+// Lancer au chargement
+Fetching();
+
+
+
+
+</script>
+
+<!-- <style class="hover"></style> -->
+
+
+</main>
+
+</body>
+</html>
