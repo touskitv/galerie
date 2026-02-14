@@ -4,93 +4,139 @@
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
   --crochet: url(assets/images/crochet.png);
-  --cadre: url(assets/images/cadre-vide.png);
-  --c01oeuvre: url(assets/images/oeuvre_bleuet3.png);
-  --c01sketch: url(assets/images/sketch_Bleuet2.png);
-  --c02oeuvre: url(assets/images/oeuvre_bottine3.png);
-  --c02sketch: url(assets/images/sketch_bottine2.png);
-  --c03oeuvre: url(assets/images/oeuvre_Clown3.png);
-  --c03sketch: url(assets/images/sketch_Clown2.png);
-  --c04oeuvre: url(assets/images/oeuvre_CrimeSOda3.png);
-  --c04sketch: url(assets/images/sketch_CrimeSOda2.png);
-  --c05oeuvre: url(assets/images/oeuvre_conspipuppet3.png);
-  --c05sketch: url(assets/images/sketch_conspipuppet2.png);
-  --c06oeuvre: url(assets/images/oeuvre_evildead3.png);
-  --c06sketch: url(assets/images/sketch_evildead2.png);
-  --c07oeuvre: url(assets/images/oeuvre_ensemble3.png);
-  --c07sketch: url(assets/images/sketch_ensemble2.png);
-  --c08oeuvre: url(assets/images/oeuvre_FDDLP03.png);
-  --c08sketch: url(assets/images/sketch_FDDLP02.png);
-  --c09oeuvre: url(assets/images/oeuvre_file_indienne3.png);
-  --c09sketch: url(assets/images/sketch_file_indienne2.png);
-  --c10oeuvre: url(assets/images/oeuvre_friday3.png);
-  --c10sketch: url(assets/images/sketch_friday2.png);
-  --c11oeuvre: url(assets/images/oeuvre_gaudet3.png);
-  --c11sketch: url(assets/images/sketch_gaudet2.png);
-  --c12oeuvre: url(assets/images/oeuvre_godzilla3.png);
-  --c12sketch: url(assets/images/sketch_godzilla2.png);
-  --c13oeuvre: url(assets/images/oeuvre_groundhog3.png);
-  --c13sketch: url(assets/images/sketch_Groundhog2.png);
-  --c14oeuvre: url(assets/images/oeuvre_guenilles3.png);
-  --c14sketch: url(assets/images/sketch_guenilles2.png);
-  --c15oeuvre: url(assets/images/oeuvre_hugo3.png);
-  --c15sketch: url(assets/images/sketch_hugo2.png);
-  --c16oeuvre: url(assets/images/oeuvre_karma3.png);
-  --c16sketch: url(assets/images/sketch_karma2.png);
-  --c17oeuvre: url(assets/images/oeuvre_karltremblay3.png);
-  --c17sketch: url(assets/images/sketch_karltremblay2.png);
-  --c18oeuvre: url(assets/images/oeuvre_lego3.png);
-  --c18sketch: url(assets/images/sketch_lego2.png);
-  --c19oeuvre: url(assets/images/oeuvre_lotr3.png);
-  --c19sketch: url(assets/images/sketch_lotr2.png);
-  --c20oeuvre: url(assets/images/oeuvre_louiseville20243.png);
-  --c20sketch: url(assets/images/sketch_louiseville20242.png);
-  --c21oeuvre: url(assets/images/oeuvre_lynda3.png);
-  --c21sketch: url(assets/images/sketch_lynda2.png);
-  --c22oeuvre: url(assets/images/oeuvre_mado3.png);
-  --c22sketch: url(assets/images/sketch_mado2.png);
-  --c23oeuvre: url(assets/images/oeuvre_maillet3.png);
-  --c23sketch: url(assets/images/sketch_maillet2.png);
-  --c24oeuvre: url(assets/images/oeuvre_matrix3.png);
-  --c24sketch: url(assets/images/sketch_matrix2.png);
-  --c25oeuvre: url(assets/images/oeuvre_mutevh3.png);
-  --c25sketch: url(assets/images/sketch_mutevh2.png);
-  --c26oeuvre: url(assets/images/oeuvre_napu3.png);
-  --c26sketch: url(assets/images/sketch_napu2.png);
-  --c27oeuvre: url(assets/images/oeuvre_nightmare3.png);
-  --c27sketch: url(assets/images/sketch_nightmare2.png);
-  --c28oeuvre: url(assets/images/oeuvre_orgonite_de_nowel3.png);
-  --c28sketch: url(assets/images/sketch_orgonite_de_nowel2.png);
-  --c29oeuvre: url(assets/images/oeuvre_orgonitebleu3.png);
-  --c29sketch: url(assets/images/sketch_orgonitebleu2.png);
-  --c30oeuvre: url(assets/images/oeuvre_originaleorgonite3.png);
-  --c30sketch: url(assets/images/sketch_originaleorgonite2.png);
-  --c31oeuvre: url(assets/images/oeuvre_peter3.png);
-  --c31sketch: url(assets/images/sketch_peter2.png);
-  --c32oeuvre: url(assets/images/oeuvre_PROBTECHNIQUES3.png);
-  --c32sketch: url(assets/images/sketch_PROBTECHNIQUES2.png);
-  --c33oeuvre: url(assets/images/oeuvre_ptit_joel3.png);
-  --c33sketch: url(assets/images/sketch_ptit_joel2.png);
-  --c34oeuvre: url(assets/images/oeuvre_singerome3.png);
-  --c34sketch: url(assets/images/sketch_singerome2.png);
-  --c35oeuvre: url(assets/images/oeuvre_starwars3.png);
-  --c35sketch: url(assets/images/sketch_starwars2.png);
-  --c36oeuvre: url(assets/images/oeuvre_steve3.png);
-  --c36sketch: url(assets/images/sketch_steve2.png);
-  --c37oeuvre: url(assets/images/oeuvre_Stucco3.png);
-  --c37sketch: url(assets/images/sketch_Stucco2.png);
-  --c38oeuvre: url(assets/images/oeuvre_theremin3.png);
-  --c38sketch: url(assets/images/sketch_theremin2.png);
-  --c39oeuvre: url(assets/images/oeuvre_trump3.png);
-  --c39sketch: url(assets/images/sketch_trump2.png);
-  --c40oeuvre: url(assets/images/oeuvre_trumpmask3.png);
-  --c40sketch: url(assets/images/sketch_trumpmask2.png);
-  --c41oeuvre: url(assets/images/oeuvre_une_fois_au_chalet3.png);
-  --c41sketch: url(assets/images/sketch_une_fois_au_chalet2.png);
-  --c42oeuvre: url(assets/images/oeuvre_uvh3.png);
-  --c42sketch: url(assets/images/sketch_uvh2.png);
-  --c43oeuvre: url(assets/images/oeuvre_Vitrail_UVH3.png);
-  --c43sketch: url(assets/images/sketch_Vitrail_UVH2.png);
+  --cadre: url(assets/images/cadre_vide.png);
+
+
+  /*Croquis et Oeuvres*/
+  --c01oeuvre: url(assets/images/bleuet_02.png);
+  --c01sketch: url(assets/images/bleuet_01.png);
+
+  --c02oeuvre: url(assets/images/bottine_02.png);
+  --c02sketch: url(assets/images/bottine_01.png);
+
+  --c03oeuvre: url(assets/images/clown_02.png);
+  --c03sketch: url(assets/images/clown_01.png);
+
+  --c04oeuvre: url(assets/images/crimesoda_02.png);
+  --c04sketch: url(assets/images/crimesoda_01.png);
+
+  --c05oeuvre: url(assets/images/conspipuppet_02.png);
+  --c05sketch: url(assets/images/conspipuppet_01.png);
+
+  --c06oeuvre: url(assets/images/evildead_02.png);
+  --c06sketch: url(assets/images/evildead_01.png);
+
+  --c07oeuvre: url(assets/images/ensemble_02.png);
+  --c07sketch: url(assets/images/ensemble_01.png);
+
+  --c08oeuvre: url(assets/images/fddlp0_02.png);
+  --c08sketch: url(assets/images/fddlp0_01.png);
+
+  --c09oeuvre: url(assets/images/file_indienne_02.png);
+  --c09sketch: url(assets/images/file_indienne_01.png);
+
+  --c10oeuvre: url(assets/images/friday_02.png);
+  --c10sketch: url(assets/images/friday_01.png);
+
+  --c11oeuvre: url(assets/images/gaudet_02.png);
+  --c11sketch: url(assets/images/gaudet_01.png);
+
+  --c12oeuvre: url(assets/images/godzilla_02.png);
+  --c12sketch: url(assets/images/godzilla_01.png);
+
+  --c13oeuvre: url(assets/images/groundhog_02.png);
+  --c13sketch: url(assets/images/groundhog_01.png);
+
+  --c14oeuvre: url(assets/images/guenilles_02.png);
+  --c14sketch: url(assets/images/guenilles_01.png);
+
+  --c15oeuvre: url(assets/images/hugo_02.png);
+  --c15sketch: url(assets/images/hugo_01.png);
+
+  --c16oeuvre: url(assets/images/karma_02.png);
+  --c16sketch: url(assets/images/karma_01.png);
+
+  --c17oeuvre: url(assets/images/karltremblay_02.png);
+  --c17sketch: url(assets/images/karltremblay_01.png);
+
+  --c18oeuvre: url(assets/images/lego_02.png);
+  --c18sketch: url(assets/images/lego_01.png);
+
+  --c19oeuvre: url(assets/images/lotr_02.png);
+  --c19sketch: url(assets/images/lotr_01.png);
+
+  --c20oeuvre: url(assets/images/louiseville2024_02.png);
+  --c20sketch: url(assets/images/louiseville2024_01.png);
+
+  --c21oeuvre: url(assets/images/lynda_02.png);
+  --c21sketch: url(assets/images/lynda_01.png);
+
+  --c22oeuvre: url(assets/images/mado_02.png);
+  --c22sketch: url(assets/images/mado_01.png);
+
+  --c23oeuvre: url(assets/images/maillet_02.png);
+  --c23sketch: url(assets/images/maillet_01.png);
+
+  --c24oeuvre: url(assets/images/matrix_02.png);
+  --c24sketch: url(assets/images/matrix_01.png);
+
+  --c25oeuvre: url(assets/images/mutevh_02.png);
+  --c25sketch: url(assets/images/mutevh_01.png);
+
+  --c26oeuvre: url(assets/images/napu_02.png);
+  --c26sketch: url(assets/images/napu_01.png);
+
+  --c27oeuvre: url(assets/images/nightmare_02.png);
+  --c27sketch: url(assets/images/nightmare_01.png);
+
+  --c28oeuvre: url(assets/images/orgonite_de_nowel_02.png);
+  --c28sketch: url(assets/images/orgonite_de_nowel_01.png);
+
+  --c29oeuvre: url(assets/images/orgonitebleu_02.png);
+  --c29sketch: url(assets/images/orgonitebleu_01.png);
+
+  --c30oeuvre: url(assets/images/originaleorgonite_02.png);
+  --c30sketch: url(assets/images/originaleorgonite_01.png);
+
+  --c31oeuvre: url(assets/images/peter_02.png);
+  --c31sketch: url(assets/images/peter_01.png);
+
+  --c32oeuvre: url(assets/images/probtechniques_02.png);
+  --c32sketch: url(assets/images/probtechniques_01.png);
+
+  --c33oeuvre: url(assets/images/ptit_joel_02.png);
+  --c33sketch: url(assets/images/ptit_joel_01.png);
+
+  --c34oeuvre: url(assets/images/singerome_02.png);
+  --c34sketch: url(assets/images/singerome_01.png);
+
+  --c35oeuvre: url(assets/images/starwars_02.png);
+  --c35sketch: url(assets/images/starwars_01.png);
+
+  --c36oeuvre: url(assets/images/steve_02.png);
+  --c36sketch: url(assets/images/steve_01.png);
+
+  --c37oeuvre: url(assets/images/stucco_02.png);
+  --c37sketch: url(assets/images/stucco_01.png);
+
+  --c38oeuvre: url(assets/images/theremin_02.png);
+  --c38sketch: url(assets/images/theremin_01.png);
+
+  --c39oeuvre: url(assets/images/trump_02.png);
+  --c39sketch: url(assets/images/trump_01.png);
+
+  --c40oeuvre: url(assets/images/trumpmask_02.png);
+  --c40sketch: url(assets/images/trumpmask_01.png);
+
+  --c41oeuvre: url(assets/images/une_fois_au_chalet_02.png);
+  --c41sketch: url(assets/images/une_fois_au_chalet_01.png);
+
+  --c42oeuvre: url(assets/images/uvh_02.png);
+  --c42sketch: url(assets/images/uvh_01.png);
+
+  --c43oeuvre: url(assets/images/vitrail_uvh_02.png);
+  --c43sketch: url(assets/images/vitrail_uvh_01.png);
+
 }
 
 .tableau {
@@ -690,350 +736,6 @@
   --color1: var(--carte2);
   --tableau: var(--c43sketch);
 }
-.oeuvre.c44 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c44oeuvre);
-}
-
-.sketch.c44 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c44sketch);
-}
-.oeuvre.c45 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c45oeuvre);
-}
-
-.sketch.c45 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c45sketch);
-}
-.oeuvre.c46 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c46oeuvre);
-}
-
-.sketch.c46 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c46sketch);
-}
-.oeuvre.c47 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c47oeuvre);
-}
-
-.sketch.c47 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c47sketch);
-}
-.oeuvre.c48 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c48oeuvre);
-}
-
-.sketch.c48 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c48sketch);
-}
-.oeuvre.c49 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c49oeuvre);
-}
-
-.sketch.c49 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c49sketch);
-}
-.oeuvre.c50 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c50oeuvre);
-}
-
-.sketch.c50 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c50sketch);
-}
-.oeuvre.c51 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c51oeuvre);
-}
-
-.sketch.c51 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c51sketch);
-}
-.oeuvre.c52 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c52oeuvre);
-}
-
-.sketch.c52 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c52sketch);
-}
-.oeuvre.c53 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c53oeuvre);
-}
-
-.sketch.c53 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c53sketch);
-}
-.oeuvre.c54 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c54oeuvre);
-}
-
-.sketch.c54 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c54sketch);
-}
-.oeuvre.c55 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c55oeuvre);
-}
-
-.sketch.c55 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c55sketch);
-}
-.oeuvre.c56 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c56oeuvre);
-}
-
-.sketch.c56 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c56sketch);
-}
-.oeuvre.c57 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c57oeuvre);
-}
-
-.sketch.c57 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c57sketch);
-}
-.oeuvre.c58 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c58oeuvre);
-}
-
-.sketch.c58 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c58sketch);
-}
-.oeuvre.c59 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c59oeuvre);
-}
-
-.sketch.c59 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c59sketch);
-}
-.oeuvre.c60 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c60oeuvre);
-}
-
-.sketch.c60 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c60sketch);
-}
-.oeuvre.c61 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c61oeuvre);
-}
-
-.sketch.c61 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c61sketch);
-}
-.oeuvre.c62 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c62oeuvre);
-}
-
-.sketch.c62 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c62sketch);
-}
-.oeuvre.c63 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c63oeuvre);
-}
-
-.sketch.c63 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c63sketch);
-}
-.oeuvre.c64 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c64oeuvre);
-}
-
-.sketch.c64 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c64sketch);
-}
-.oeuvre.c65 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c65oeuvre);
-}
-
-.sketch.c65 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c65sketch);
-}
-.oeuvre.c66 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c66oeuvre);
-}
-
-.sketch.c66 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c66sketch);
-}
-.oeuvre.c67 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c67oeuvre);
-}
-
-.sketch.c67 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c67sketch);
-}
-.oeuvre.c68 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c68oeuvre);
-}
-
-.sketch.c68 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c68sketch);
-}
-.oeuvre.c69 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c69oeuvre);
-}
-
-.sketch.c69 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c69sketch);
-}
-.oeuvre.c70 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c70oeuvre);
-}
-
-.sketch.c70 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c70sketch);
-}
-.oeuvre.c71 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c71oeuvre);
-}
-
-.sketch.c71 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c71sketch);
-}
-.oeuvre.c72 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c72oeuvre);
-}
-
-.sketch.c72 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c72sketch);
-}
-.oeuvre.c73 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c73oeuvre);
-}
-
-.sketch.c73 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c73sketch);
-}
-.oeuvre.c74 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c74oeuvre);
-}
-
-.sketch.c74 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c74sketch);
-}
-
-
-
 
 
 .tableau:before,
