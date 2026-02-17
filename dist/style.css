@@ -131,12 +131,6 @@
   --c41oeuvre: url(assets/images/une_fois_au_chalet_02.png);
   --c41sketch: url(assets/images/une_fois_au_chalet_01.png);
 
-  --c42oeuvre: url(assets/images/uvh_02.png);
-  --c42sketch: url(assets/images/uvh_01.png);
-
-  --c43oeuvre: url(assets/images/vitrail_uvh_02.png);
-  --c43sketch: url(assets/images/vitrail_uvh_01.png);
-
 }
 
 .tableau {
@@ -1177,3 +1171,4 @@ html,body,main {
     transform: scale3d(1, 1, 1);
   }
 }
+
