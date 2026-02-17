@@ -708,29 +708,6 @@
   --color1: var(--carte2);
   --tableau: var(--c41sketch);
 }
-.oeuvre.c42 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c42oeuvre);
-}
-
-.sketch.c42 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c42sketch);
-}
-.oeuvre.c43 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c43oeuvre);
-}
-
-.sketch.c43 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c43sketch);
-}
-
 
 .tableau:before,
 .tableau:after {
@@ -1171,4 +1148,5 @@ html,body,main {
     transform: scale3d(1, 1, 1);
   }
 }
+
 
