@@ -131,6 +131,12 @@
   --c41oeuvre: url(assets/images/une_fois_au_chalet_02.png);
   --c41sketch: url(assets/images/une_fois_au_chalet_01.png);
 
+  --c42oeuvre: url(assets/images/uvh_02.png);
+  --c42sketch: url(assets/images/uvh_01.png);
+
+  --c43oeuvre: url(assets/images/vitrail_uvh_02.png);
+  --c43sketch: url(assets/images/vitrail_uvh_01.png);
+
 }
 
 .tableau {
@@ -263,7 +269,6 @@
   --tableau: var(--c01oeuvre);
 }
 
-.sketch.c01 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c01sketch);
@@ -274,7 +279,6 @@
   --tableau: var(--c02oeuvre);
 }
 
-.sketch.c02 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c02sketch);
@@ -285,7 +289,6 @@
   --tableau: var(--c03oeuvre);
 }
 
-.sketch.c03 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c03sketch);
@@ -296,7 +299,6 @@
   --tableau: var(--c04oeuvre);
 }
 
-.sketch.c04 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c04sketch);
@@ -307,7 +309,6 @@
   --tableau: var(--c05oeuvre);
 }
 
-.sketch.c05 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c05sketch);
@@ -318,7 +319,6 @@
   --tableau: var(--c06oeuvre);
 }
 
-.sketch.c06 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c06sketch);
@@ -329,7 +329,6 @@
   --tableau: var(--c07oeuvre);
 }
 
-.sketch.c07 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c07sketch);
@@ -340,7 +339,6 @@
   --tableau: var(--c08oeuvre);
 }
 
-.sketch.c08 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c08sketch);
@@ -351,7 +349,6 @@
   --tableau: var(--c09oeuvre);
 }
 
-.sketch.c09 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c09sketch);
@@ -362,7 +359,6 @@
   --tableau: var(--c10oeuvre);
 }
 
-.sketch.c10 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c10sketch);
@@ -373,7 +369,6 @@
   --tableau: var(--c11oeuvre);
 }
 
-.sketch.c11 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c11sketch);
@@ -384,7 +379,6 @@
   --tableau: var(--c12oeuvre);
 }
 
-.sketch.c12 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c12sketch);
@@ -395,7 +389,6 @@
   --tableau: var(--c13oeuvre);
 }
 
-.sketch.c13 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c13sketch);
@@ -406,7 +399,6 @@
   --tableau: var(--c14oeuvre);
 }
 
-.sketch.c14 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c14sketch);
@@ -417,7 +409,6 @@
   --tableau: var(--c15oeuvre);
 }
 
-.sketch.c15 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c15sketch);
@@ -428,7 +419,6 @@
   --tableau: var(--c16oeuvre);
 }
 
-.sketch.c16 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c16sketch);
@@ -439,7 +429,6 @@
   --tableau: var(--c17oeuvre);
 }
 
-.sketch.c17 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c17sketch);
@@ -450,7 +439,6 @@
   --tableau: var(--c18oeuvre);
 }
 
-.sketch.c18 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c18sketch);
@@ -461,7 +449,6 @@
   --tableau: var(--c19oeuvre);
 }
 
-.sketch.c19 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c19sketch);
@@ -472,7 +459,6 @@
   --tableau: var(--c20oeuvre);
 }
 
-.sketch.c20 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c20sketch);
@@ -483,7 +469,6 @@
   --tableau: var(--c21oeuvre);
 }
 
-.sketch.c21 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c21sketch);
@@ -494,7 +479,6 @@
   --tableau: var(--c22oeuvre);
 }
 
-.sketch.c22 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c22sketch);
@@ -505,7 +489,6 @@
   --tableau: var(--c23oeuvre);
 }
 
-.sketch.c23 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c23sketch);
@@ -516,7 +499,6 @@
   --tableau: var(--c24oeuvre);
 }
 
-.sketch.c24 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c24sketch);
@@ -527,7 +509,6 @@
   --tableau: var(--c25oeuvre);
 }
 
-.sketch.c25 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c25sketch);
@@ -538,7 +519,6 @@
   --tableau: var(--c26oeuvre);
 }
 
-.sketch.c26 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c26sketch);
@@ -549,7 +529,6 @@
   --tableau: var(--c27oeuvre);
 }
 
-.sketch.c27 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c27sketch);
@@ -560,7 +539,6 @@
   --tableau: var(--c28oeuvre);
 }
 
-.sketch.c28 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c28sketch);
@@ -571,7 +549,6 @@
   --tableau: var(--c29oeuvre);
 }
 
-.sketch.c29 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c29sketch);
@@ -582,7 +559,6 @@
   --tableau: var(--c30oeuvre);
 }
 
-.sketch.c30 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c30sketch);
@@ -593,7 +569,6 @@
   --tableau: var(--c31oeuvre);
 }
 
-.sketch.c31 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c31sketch);
@@ -604,7 +579,6 @@
   --tableau: var(--c32oeuvre);
 }
 
-.sketch.c32 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c32sketch);
@@ -615,7 +589,6 @@
   --tableau: var(--c33oeuvre);
 }
 
-.sketch.c33 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c33sketch);
@@ -626,7 +599,6 @@
   --tableau: var(--c34oeuvre);
 }
 
-.sketch.c34 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c34sketch);
@@ -637,7 +609,6 @@
   --tableau: var(--c35oeuvre);
 }
 
-.sketch.c35 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c35sketch);
@@ -648,7 +619,6 @@
   --tableau: var(--c36oeuvre);
 }
 
-.sketch.c36 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c36sketch);
@@ -659,7 +629,6 @@
   --tableau: var(--c37oeuvre);
 }
 
-.sketch.c37 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c37sketch);
@@ -670,7 +639,6 @@
   --tableau: var(--c38oeuvre);
 }
 
-.sketch.c38 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c38sketch);
@@ -681,7 +649,6 @@
   --tableau: var(--c39oeuvre);
 }
 
-.sketch.c39 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c39sketch);
@@ -691,19 +658,17 @@
   --color1: var(--carte2);
   --tableau: var(--c40oeuvre);
 }
-
-.sketch.c40 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c40sketch);
 }
+
 .oeuvre.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c41oeuvre);
 }
 
-.sketch.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c41sketch);
