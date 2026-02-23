@@ -662,23 +662,23 @@
   --color1: var(--carte2);
   --tableau: var(--c41oeuvre);
 }
-
 .sketch.c41 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c41sketch);
 }
+
 .oeuvre.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c42oeuvre);
 }
-
 .sketch.c42 {
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c42sketch);
 }
+
 .oeuvre.c43 {
   --color1: var(--carte1);
   --color1: var(--carte2);
@@ -689,6 +689,7 @@
   --color1: var(--carte2);
   --tableau: var(--c43sketch);
 }
+
 
 
 .tableau:before,
