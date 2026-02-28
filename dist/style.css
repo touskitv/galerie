@@ -4,7 +4,7 @@
   --carte1: rgba(255, 255, 255, 0.20); /* couche subtile */
   --carte2: rgba(0, 0, 0, 0.10);       /* ombre grise légère */
   --crochet: url(assets/images/crochet.png);
-  --cadre: url(assets/images/cadre-vide.png);
+  --cadre: url(assets/images/cadre_vide.png);
   --c01oeuvre: url(assets/images/bleuet_02.png);
   --c01sketch: url(assets/images/bleuet_01.png);
   --c02oeuvre: url(assets/images/bottine_02.png);
