@@ -91,6 +91,10 @@
   --c42sketch: url(assets/images/uvh_01.png);
   --c43oeuvre: url(assets/images/vitrail_uvh_02.png);
   --c43sketch: url(assets/images/vitrail_uvh_01.png);
+  --c44oeuvre: url(assets/images/gateau_02.png);
+  --c44sketch: url(assets/images/gateau_01.png);
+  --c45oeuvre: url(assets/images/mgodzilla_02.png);
+  --c45sketch: url(assets/images/mgodzilla_01.png);
 }
 
 .tableau {
@@ -689,6 +693,28 @@
   --color1: var(--carte2);
   --tableau: var(--c43sketch);
 }
+.oeuvre.c44 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c44oeuvre);
+}
+.sketch.c44 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c44sketch);
+}
+
+.oeuvre.c45 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c45oeuvre);
+}
+.sketch.c45 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c45sketch);
+}
+
 
 
 
