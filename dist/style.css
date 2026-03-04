@@ -95,6 +95,10 @@
   --c44sketch: url(assets/images/gateau_01.png);
   --c45oeuvre: url(assets/images/mgodzilla_02.png);
   --c45sketch: url(assets/images/mgodzilla_01.png);
+  --c46oeuvre: url(assets/images/taser_02.png);
+  --c46sketch: url(assets/images/taser_01.png);
+  --c47oeuvre: url(assets/images/xenomorph_02.png);
+  --c47sketch: url(assets/images/xenomorph_01.png);
 }
 
 .tableau {
@@ -714,6 +718,28 @@
   --color1: var(--carte2);
   --tableau: var(--c45sketch);
 }
+.oeuvre.c46 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c46oeuvre);
+}
+.sketch.c46 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c46sketch);
+}
+
+.oeuvre.c47 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c47oeuvre);
+}
+.sketch.c47 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c47sketch);
+}
+
 
 
 
