@@ -99,6 +99,14 @@
   --c46sketch: url(assets/images/taser_01.png);
   --c47oeuvre: url(assets/images/xenomorph_02.png);
   --c47sketch: url(assets/images/xenomorph_01.png);
+  --c48oeuvre: url(assets/images/dalton_02.png);
+  --c48sketch: url(assets/images/dalton_01.png);
+  --c49oeuvre: url(assets/images/hockey_02.png);
+  --c49sketch: url(assets/images/hockey_01.png);
+  --c50oeuvre: url(assets/images/jo_02.png);
+  --c50sketch: url(assets/images/jo_01.png);
+  --c51oeuvre: url(assets/images/max_02.png);
+  --c51sketch: url(assets/images/max_01.png);
 }
 
 .tableau {
@@ -739,6 +747,50 @@
   --color1: var(--carte2);
   --tableau: var(--c47sketch);
 }
+.oeuvre.c48 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c48oeuvre);
+}
+.sketch.c48 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c48sketch);
+}
+
+.oeuvre.c49 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c49oeuvre);
+}
+.sketch.c49 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c49sketch);
+}
+
+.oeuvre.c50 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c50oeuvre);
+}
+.sketch.c50 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c50sketch);
+}
+
+.oeuvre.c51 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c51oeuvre);
+}
+.sketch.c51 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c51sketch);
+}
+
 
 
 
