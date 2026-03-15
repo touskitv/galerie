@@ -107,6 +107,14 @@
   --c50sketch: url(assets/images/jo_01.png);
   --c51oeuvre: url(assets/images/max_02.png);
   --c51sketch: url(assets/images/max_01.png);
+  --c52oeuvre: url(assets/images/backtothefuture_02.png);
+  --c52sketch: url(assets/images/backtothefuture_01.png);
+  --c53oeuvre: url(assets/images/glt_02.png);
+  --c53sketch: url(assets/images/glt_01.png);
+  --c54oeuvre: url(assets/images/medusa_02.png);
+  --c54sketch: url(assets/images/medusa_01.png);
+  --c55oeuvre: url(assets/images/punch_02.png);
+  --c55sketch: url(assets/images/punch_01.png);
 }
 
 .tableau {
@@ -790,6 +798,50 @@
   --color1: var(--carte2);
   --tableau: var(--c51sketch);
 }
+.oeuvre.c52 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c52oeuvre);
+}
+.sketch.c52 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c52sketch);
+}
+
+.oeuvre.c53 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c53oeuvre);
+}
+.sketch.c53 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c53sketch);
+}
+
+.oeuvre.c54 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c54oeuvre);
+}
+.sketch.c54 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c54sketch);
+}
+
+.oeuvre.c55 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c55oeuvre);
+}
+.sketch.c55 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c55sketch);
+}
+
 
 
 
