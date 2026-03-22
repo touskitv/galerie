@@ -159,6 +159,10 @@
   --c76sketch: url(assets/images/tattoo_01.png);
   --c77oeuvre: url(assets/images/troll_dion_02.png);
   --c77sketch: url(assets/images/troll_dion_01.png);
+  --c78oeuvre: url(assets/images/ca_va_faire_02.png);
+  --c78sketch: url(assets/images/ca_va_faire_01.png);
+  --c79oeuvre: url(assets/images/james_bond_02.png);
+  --c79sketch: url(assets/images/james_bond_01.png);
 }
 
 .tableau {
@@ -1125,6 +1129,28 @@
   --color1: var(--carte2);
   --tableau: var(--c77sketch);
 }
+.oeuvre.c78 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c78oeuvre);
+}
+.sketch.c78 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c78sketch);
+}
+
+.oeuvre.c79 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c79oeuvre);
+}
+.sketch.c79 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c79sketch);
+}
+
 
 
 
