@@ -163,6 +163,20 @@
   --c78sketch: url(assets/images/ca_va_faire_01.png);
   --c79oeuvre: url(assets/images/james_bond_02.png);
   --c79sketch: url(assets/images/james_bond_01.png);
+  --c80oeuvre: url(assets/images/balatro_02.png);
+  --c80sketch: url(assets/images/balatro_01.png);
+  --c81oeuvre: url(assets/images/bonjovi_02.png);
+  --c81sketch: url(assets/images/bonjovi_01.png);
+  --c82oeuvre: url(assets/images/gardenationale_02.png);
+  --c82sketch: url(assets/images/gardenationale_01.png);
+  --c83oeuvre: url(assets/images/jackbox_02.png);
+  --c83sketch: url(assets/images/jackbox_01.png);
+  --c84oeuvre: url(assets/images/julie_masse_02.png);
+  --c84sketch: url(assets/images/julie_masse_01.png);
+  --c85oeuvre: url(assets/images/priceisright_02.png);
+  --c85sketch: url(assets/images/priceisright_01.png);
+  --c86oeuvre: url(assets/images/scum_02.png);
+  --c86sketch: url(assets/images/scum_01.png);
 }
 
 .tableau {
@@ -1150,6 +1164,83 @@
   --color1: var(--carte2);
   --tableau: var(--c79sketch);
 }
+.oeuvre.c80 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c80oeuvre);
+}
+.sketch.c80 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c80sketch);
+}
+
+.oeuvre.c81 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c81oeuvre);
+}
+.sketch.c81 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c81sketch);
+}
+
+.oeuvre.c82 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c82oeuvre);
+}
+.sketch.c82 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c82sketch);
+}
+
+.oeuvre.c83 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c83oeuvre);
+}
+.sketch.c83 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c83sketch);
+}
+
+.oeuvre.c84 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c84oeuvre);
+}
+.sketch.c84 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c84sketch);
+}
+
+.oeuvre.c85 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c85oeuvre);
+}
+.sketch.c85 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c85sketch);
+}
+
+.oeuvre.c86 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c86oeuvre);
+}
+.sketch.c86 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c86sketch);
+}
+
 
 
 
