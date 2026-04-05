@@ -219,6 +219,8 @@
   --c106sketch: url(assets/images/petercopter_01.png);
   --c107oeuvre: url(assets/images/science_02.png);
   --c107sketch: url(assets/images/science_01.png);
+  --c108oeuvre: url(assets/images/lyndac_02.png);
+  --c108sketch: url(assets/images/lyndac_01.png);
 }
 
 .tableau {
@@ -1511,6 +1513,17 @@
   --color1: var(--carte2);
   --tableau: var(--c107sketch);
 }
+.oeuvre.c108 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c108oeuvre);
+}
+.sketch.c108 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c108sketch);
+}
+
 
 
 
