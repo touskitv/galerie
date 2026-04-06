@@ -229,6 +229,14 @@
   --c111sketch: url(assets/images/fokker_01.png);
   --c112oeuvre: url(assets/images/artemis2_02.png);
   --c112sketch: url(assets/images/artemis2_01.png);
+  --c113oeuvre: url(assets/images/banksy_02.png);
+  --c113sketch: url(assets/images/banksy_01.png);
+  --c114oeuvre: url(assets/images/et_02.png);
+  --c114sketch: url(assets/images/et_01.png);
+  --c115oeuvre: url(assets/images/integrity_02.png);
+  --c115sketch: url(assets/images/integrity_01.png);
+  --c116oeuvre: url(assets/images/telephonemental_02.png);
+  --c116sketch: url(assets/images/telephonemental_01.png);
 }
 
 .tableau {
@@ -1573,6 +1581,50 @@
   --color1: var(--carte2);
   --tableau: var(--c112sketch);
 }
+.oeuvre.c113 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c113oeuvre);
+}
+.sketch.c113 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c113sketch);
+}
+
+.oeuvre.c114 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c114oeuvre);
+}
+.sketch.c114 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c114sketch);
+}
+
+.oeuvre.c115 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c115oeuvre);
+}
+.sketch.c115 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c115sketch);
+}
+
+.oeuvre.c116 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c116oeuvre);
+}
+.sketch.c116 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c116sketch);
+}
+
 
 
 
