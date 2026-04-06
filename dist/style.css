@@ -227,6 +227,8 @@
   --c110sketch: url(assets/images/chuck_norris_01.png);
   --c111oeuvre: url(assets/images/fokker_02.png);
   --c111sketch: url(assets/images/fokker_01.png);
+  --c112oeuvre: url(assets/images/artemis2_02.png);
+  --c112sketch: url(assets/images/artemis2_01.png);
 }
 
 .tableau {
@@ -1561,6 +1563,17 @@
   --color1: var(--carte2);
   --tableau: var(--c111sketch);
 }
+.oeuvre.c112 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c112oeuvre);
+}
+.sketch.c112 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c112sketch);
+}
+
 
 
 
