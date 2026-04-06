@@ -221,6 +221,12 @@
   --c107sketch: url(assets/images/science_01.png);
   --c108oeuvre: url(assets/images/lyndac_02.png);
   --c108sketch: url(assets/images/lyndac_01.png);
+  --c109oeuvre: url(assets/images/artemisII_02.png);
+  --c109sketch: url(assets/images/artemisII_01.png);
+  --c110oeuvre: url(assets/images/chuck_norris_02.png);
+  --c110sketch: url(assets/images/chuck_norris_01.png);
+  --c111oeuvre: url(assets/images/fokker_02.png);
+  --c111sketch: url(assets/images/fokker_01.png);
 }
 
 .tableau {
@@ -1523,6 +1529,39 @@
   --color1: var(--carte2);
   --tableau: var(--c108sketch);
 }
+.oeuvre.c109 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c109oeuvre);
+}
+.sketch.c109 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c109sketch);
+}
+
+.oeuvre.c110 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c110oeuvre);
+}
+.sketch.c110 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c110sketch);
+}
+
+.oeuvre.c111 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c111oeuvre);
+}
+.sketch.c111 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c111sketch);
+}
+
 
 
 
