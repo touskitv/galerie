@@ -237,6 +237,14 @@
   --c115sketch: url(assets/images/integrity_01.png);
   --c116oeuvre: url(assets/images/telephonemental_02.png);
   --c116sketch: url(assets/images/telephonemental_01.png);
+  --c117oeuvre: url(assets/images/hoodoo_02.png);
+  --c117sketch: url(assets/images/hoodoo_01.png);
+  --c118oeuvre: url(assets/images/invasion_02.png);
+  --c118sketch: url(assets/images/invasion_01.png);
+  --c119oeuvre: url(assets/images/powerwash_02.png);
+  --c119sketch: url(assets/images/powerwash_01.png);
+  --c120oeuvre: url(assets/images/service_02.png);
+  --c120sketch: url(assets/images/service_01.png);
 }
 
 .tableau {
@@ -1624,6 +1632,50 @@
   --color1: var(--carte2);
   --tableau: var(--c116sketch);
 }
+.oeuvre.c117 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c117oeuvre);
+}
+.sketch.c117 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c117sketch);
+}
+
+.oeuvre.c118 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c118oeuvre);
+}
+.sketch.c118 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c118sketch);
+}
+
+.oeuvre.c119 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c119oeuvre);
+}
+.sketch.c119 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c119sketch);
+}
+
+.oeuvre.c120 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c120oeuvre);
+}
+.sketch.c120 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c120sketch);
+}
+
 
 
 
