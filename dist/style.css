@@ -245,6 +245,14 @@
   --c119sketch: url(assets/images/powerwash_01.png);
   --c120oeuvre: url(assets/images/service_02.png);
   --c120sketch: url(assets/images/service_01.png);
+  --c121oeuvre: url(assets/images/amadeus_02.png);
+  --c121sketch: url(assets/images/amadeus_01.png);
+  --c122oeuvre: url(assets/images/multi_pass_02.png);
+  --c122sketch: url(assets/images/multi_pass_01.png);
+  --c123oeuvre: url(assets/images/spaceballs_02.png);
+  --c123sketch: url(assets/images/spaceballs_01.png);
+  --c124oeuvre: url(assets/images/starship_troopers_02.png);
+  --c124sketch: url(assets/images/starship_troopers_01.png);
 }
 
 .tableau {
@@ -1675,6 +1683,50 @@
   --color1: var(--carte2);
   --tableau: var(--c120sketch);
 }
+.oeuvre.c121 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c121oeuvre);
+}
+.sketch.c121 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c121sketch);
+}
+
+.oeuvre.c122 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c122oeuvre);
+}
+.sketch.c122 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c122sketch);
+}
+
+.oeuvre.c123 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c123oeuvre);
+}
+.sketch.c123 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c123sketch);
+}
+
+.oeuvre.c124 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c124oeuvre);
+}
+.sketch.c124 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c124sketch);
+}
+
 
 
 
