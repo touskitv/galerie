@@ -253,6 +253,14 @@
   --c123sketch: url(assets/images/spaceballs_01.png);
   --c124oeuvre: url(assets/images/starship_troopers_02.png);
   --c124sketch: url(assets/images/starship_troopers_01.png);
+  --c125oeuvre: url(assets/images/call_back_02.png);
+  --c125sketch: url(assets/images/call_back_01.png);
+  --c126oeuvre: url(assets/images/fantaisie_sulfureuse_02.png);
+  --c126sketch: url(assets/images/fantaisie_sulfureuse_01.png);
+  --c127oeuvre: url(assets/images/rise_02.png);
+  --c127sketch: url(assets/images/rise_01.png);
+  --c128oeuvre: url(assets/images/srv_02.png);
+  --c128sketch: url(assets/images/srv_01.png);
 }
 
 .tableau {
@@ -1726,6 +1734,50 @@
   --color1: var(--carte2);
   --tableau: var(--c124sketch);
 }
+.oeuvre.c125 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c125oeuvre);
+}
+.sketch.c125 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c125sketch);
+}
+
+.oeuvre.c126 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c126oeuvre);
+}
+.sketch.c126 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c126sketch);
+}
+
+.oeuvre.c127 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c127oeuvre);
+}
+.sketch.c127 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c127sketch);
+}
+
+.oeuvre.c128 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c128oeuvre);
+}
+.sketch.c128 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c128sketch);
+}
+
 
 
 
