@@ -261,6 +261,8 @@
   --c127sketch: url(assets/images/rise_01.png);
   --c128oeuvre: url(assets/images/srv_02.png);
   --c128sketch: url(assets/images/srv_01.png);
+  --c129oeuvre: url(assets/images/gone_with_the_wind_02.png);
+  --c129sketch: url(assets/images/gone_with_the_wind_01.png);
 }
 
 .tableau {
@@ -1777,6 +1779,17 @@
   --color1: var(--carte2);
   --tableau: var(--c128sketch);
 }
+.oeuvre.c129 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c129oeuvre);
+}
+.sketch.c129 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c129sketch);
+}
+
 
 
 
