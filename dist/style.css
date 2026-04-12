@@ -263,6 +263,8 @@
   --c128sketch: url(assets/images/srv_01.png);
   --c129oeuvre: url(assets/images/gone_with_the_wind_02.png);
   --c129sketch: url(assets/images/gone_with_the_wind_01.png);
+  --c130oeuvre: url(assets/images/pierrafeu_02.png);
+  --c130sketch: url(assets/images/pierrafeu_01.png);
 }
 
 .tableau {
@@ -1789,6 +1791,17 @@
   --color1: var(--carte2);
   --tableau: var(--c129sketch);
 }
+.oeuvre.c130 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c130oeuvre);
+}
+.sketch.c130 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c130sketch);
+}
+
 
 
 
