@@ -265,6 +265,10 @@
   --c129sketch: url(assets/images/gone_with_the_wind_01.png);
   --c130oeuvre: url(assets/images/pierrafeu_02.png);
   --c130sketch: url(assets/images/pierrafeu_01.png);
+  --c131oeuvre: url(assets/images/curiosite_02.png);
+  --c131sketch: url(assets/images/curiosite_01.png);
+  --c132oeuvre: url(assets/images/jaws_02.png);
+  --c132sketch: url(assets/images/jaws_01.png);
 }
 
 .tableau {
@@ -1801,6 +1805,28 @@
   --color1: var(--carte2);
   --tableau: var(--c130sketch);
 }
+.oeuvre.c131 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c131oeuvre);
+}
+.sketch.c131 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c131sketch);
+}
+
+.oeuvre.c132 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c132oeuvre);
+}
+.sketch.c132 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c132sketch);
+}
+
 
 
 
