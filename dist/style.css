@@ -269,6 +269,10 @@
   --c131sketch: url(assets/images/curiosite_01.png);
   --c132oeuvre: url(assets/images/jaws_02.png);
   --c132sketch: url(assets/images/jaws_01.png);
+  --c133oeuvre: url(assets/images/10ans_02.png);
+  --c133sketch: url(assets/images/10ans_01.png);
+  --c134oeuvre: url(assets/images/feuille_sale_02.png);
+  --c134sketch: url(assets/images/feuille_sale_01.png);
 }
 
 .tableau {
@@ -1826,6 +1830,28 @@
   --color1: var(--carte2);
   --tableau: var(--c132sketch);
 }
+.oeuvre.c133 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c133oeuvre);
+}
+.sketch.c133 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c133sketch);
+}
+
+.oeuvre.c134 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c134oeuvre);
+}
+.sketch.c134 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c134sketch);
+}
+
 
 
 
