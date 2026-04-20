@@ -273,6 +273,10 @@
   --c133sketch: url(assets/images/10ans_01.png);
   --c134oeuvre: url(assets/images/feuille_sale_02.png);
   --c134sketch: url(assets/images/feuille_sale_01.png);
+  --c135oeuvre: url(assets/images/merci_francois_02.png);
+  --c135sketch: url(assets/images/merci_francois_01.png);
+  --c136oeuvre: url(assets/images/tarot_uvh_02.png);
+  --c136sketch: url(assets/images/tarot_uvh_01.png);
 }
 
 .tableau {
@@ -1851,6 +1855,28 @@
   --color1: var(--carte2);
   --tableau: var(--c134sketch);
 }
+.oeuvre.c135 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c135oeuvre);
+}
+.sketch.c135 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c135sketch);
+}
+
+.oeuvre.c136 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c136oeuvre);
+}
+.sketch.c136 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c136sketch);
+}
+
 
 
 
