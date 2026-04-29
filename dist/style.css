@@ -279,6 +279,10 @@
   --c136sketch: url(assets/images/tarot_uvh_01.png);
   --c137oeuvre: url(assets/images/zerotobus_02.png);
   --c137sketch: url(assets/images/zerotobus_01.png);
+  --c138oeuvre: url(assets/images/diskelda_02.png);
+  --c138sketch: url(assets/images/diskelda_01.png);
+  --c139oeuvre: url(assets/images/gino_02.png);
+  --c139sketch: url(assets/images/gino_01.png);
 }
 
 .tableau {
@@ -1888,6 +1892,28 @@
   --color1: var(--carte2);
   --tableau: var(--c137sketch);
 }
+.oeuvre.c138 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c138oeuvre);
+}
+.sketch.c138 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c138sketch);
+}
+
+.oeuvre.c139 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c139oeuvre);
+}
+.sketch.c139 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c139sketch);
+}
+
 
 
 
