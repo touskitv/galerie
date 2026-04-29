@@ -283,6 +283,10 @@
   --c138sketch: url(assets/images/diskelda_01.png);
   --c139oeuvre: url(assets/images/gino_02.png);
   --c139sketch: url(assets/images/gino_01.png);
+  --c140oeuvre: url(assets/images/karate_clip_02.png);
+  --c140sketch: url(assets/images/karate_clip_01.png);
+  --c141oeuvre: url(assets/images/quatre_ans_02.png);
+  --c141sketch: url(assets/images/quatre_ans_01.png);
 }
 
 .tableau {
@@ -1913,6 +1917,28 @@
   --color1: var(--carte2);
   --tableau: var(--c139sketch);
 }
+.oeuvre.c140 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c140oeuvre);
+}
+.sketch.c140 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c140sketch);
+}
+
+.oeuvre.c141 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c141oeuvre);
+}
+.sketch.c141 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c141sketch);
+}
+
 
 
 
