@@ -277,6 +277,8 @@
   --c135sketch: url(assets/images/merci_francois_01.png);
   --c136oeuvre: url(assets/images/tarot_uvh_02.png);
   --c136sketch: url(assets/images/tarot_uvh_01.png);
+  --c137oeuvre: url(assets/images/zerotobus_02.png);
+  --c137sketch: url(assets/images/zerotobus_01.png);
 }
 
 .tableau {
@@ -1876,6 +1878,17 @@
   --color1: var(--carte2);
   --tableau: var(--c136sketch);
 }
+.oeuvre.c137 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c137oeuvre);
+}
+.sketch.c137 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c137sketch);
+}
+
 
 
 
