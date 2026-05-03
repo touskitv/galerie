@@ -289,6 +289,12 @@
   --c141sketch: url(assets/images/quatre_ans_01.png);
   --c142oeuvre: url(assets/images/gunpla2_02.png);
   --c142sketch: url(assets/images/gunpla2_01.png);
+  --c143oeuvre: url(assets/images/4ans_diskelda_02.png);
+  --c143sketch: url(assets/images/4ans_diskelda_01.png);
+  --c144oeuvre: url(assets/images/crop_circle_02.png);
+  --c144sketch: url(assets/images/crop_circle_01.png);
+  --c145oeuvre: url(assets/images/etoile_de_trump_02.png);
+  --c145sketch: url(assets/images/etoile_de_trump_01.png);
 }
 
 .tableau {
@@ -1950,6 +1956,39 @@
   --color1: var(--carte2);
   --tableau: var(--c142sketch);
 }
+.oeuvre.c143 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c143oeuvre);
+}
+.sketch.c143 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c143sketch);
+}
+
+.oeuvre.c144 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c144oeuvre);
+}
+.sketch.c144 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c144sketch);
+}
+
+.oeuvre.c145 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c145oeuvre);
+}
+.sketch.c145 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c145sketch);
+}
+
 
 
 
