@@ -303,6 +303,8 @@
   --c148sketch: url(assets/images/4ans_missbetthy_01.png);
   --c149oeuvre: url(assets/images/4ans_missbetthy_bt_02.png);
   --c149sketch: url(assets/images/4ans_missbetthy_bt_01.png);
+  --c150oeuvre: url(assets/images/mmelitchi_gab_02.png);
+  --c150sketch: url(assets/images/mmelitchi_gab_01.png);
 }
 
 .tableau {
@@ -2038,6 +2040,17 @@
   --color1: var(--carte2);
   --tableau: var(--c149sketch);
 }
+.oeuvre.c150 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c150oeuvre);
+}
+.sketch.c150 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c150sketch);
+}
+
 
 
 
