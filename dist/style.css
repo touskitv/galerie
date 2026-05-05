@@ -305,6 +305,8 @@
   --c149sketch: url(assets/images/4ans_missbetthy_bt_01.png);
   --c150oeuvre: url(assets/images/mmelitchi_gab_02.png);
   --c150sketch: url(assets/images/mmelitchi_gab_01.png);
+  --c151oeuvre: url(assets/images/4ans_lulubleu_zelda_02.png);
+  --c151sketch: url(assets/images/4ans_lulubleu_zelda_01.png);
 }
 
 .tableau {
@@ -2050,6 +2052,17 @@
   --color1: var(--carte2);
   --tableau: var(--c150sketch);
 }
+.oeuvre.c151 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c151oeuvre);
+}
+.sketch.c151 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c151sketch);
+}
+
 
 
 
