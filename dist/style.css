@@ -307,6 +307,8 @@
   --c150sketch: url(assets/images/mmelitchi_gab_01.png);
   --c151oeuvre: url(assets/images/4ans_lulubleu_zelda_02.png);
   --c151sketch: url(assets/images/4ans_lulubleu_zelda_01.png);
+  --c152oeuvre: url(assets/images/orgonite4ans_02.png);
+  --c152sketch: url(assets/images/orgonite4ans_01.png);
 }
 
 .tableau {
@@ -2062,6 +2064,17 @@
   --color1: var(--carte2);
   --tableau: var(--c151sketch);
 }
+.oeuvre.c152 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c152oeuvre);
+}
+.sketch.c152 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c152sketch);
+}
+
 
 
 
