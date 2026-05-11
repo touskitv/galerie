@@ -313,6 +313,8 @@
   --c153sketch: url(assets/images/Moose_de_Nombril_01.png);
   --c154oeuvre: url(assets/images/premiere_diffusion_02.png);
   --c154sketch: url(assets/images/premiere_diffusion_01.png);
+  --c155oeuvre: url(assets/images/4ans_Moose_de_Nombril_02.png);
+  --c155sketch: url(assets/images/4ans_Moose_de_Nombril_01.png);
 }
 
 .tableau {
@@ -2099,6 +2101,17 @@
   --color1: var(--carte2);
   --tableau: var(--c154sketch);
 }
+.oeuvre.c155 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c155oeuvre);
+}
+.sketch.c155 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c155sketch);
+}
+
 
 
 
