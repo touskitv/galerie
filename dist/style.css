@@ -309,6 +309,10 @@
   --c151sketch: url(assets/images/4ans_lulubleu_zelda_01.png);
   --c152oeuvre: url(assets/images/orgonite4ans_02.png);
   --c152sketch: url(assets/images/orgonite4ans_01.png);
+  --c153oeuvre: url(assets/images/Moose_de_Nombril_02.png);
+  --c153sketch: url(assets/images/Moose_de_Nombril_01.png);
+  --c154oeuvre: url(assets/images/premiere_diffusion_02.png);
+  --c154sketch: url(assets/images/premiere_diffusion_01.png);
 }
 
 .tableau {
@@ -2074,6 +2078,28 @@
   --color1: var(--carte2);
   --tableau: var(--c152sketch);
 }
+.oeuvre.c153 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c153oeuvre);
+}
+.sketch.c153 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c153sketch);
+}
+
+.oeuvre.c154 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c154oeuvre);
+}
+.sketch.c154 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c154sketch);
+}
+
 
 
 
