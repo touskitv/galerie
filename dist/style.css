@@ -317,6 +317,8 @@
   --c155sketch: url(assets/images/4ans_Moose_de_Nombril_01.png);
   --c156oeuvre: url(assets/images/4ans_Moose_02.png);
   --c156sketch: url(assets/images/4ans_Moose_01.png);
+  --c157oeuvre: url(assets/images/4ans_moose_02.png);
+  --c157sketch: url(assets/images/4ans_moose_01.png);
 }
 
 .tableau {
@@ -2123,6 +2125,17 @@
   --color1: var(--carte2);
   --tableau: var(--c156sketch);
 }
+.oeuvre.c157 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c157oeuvre);
+}
+.sketch.c157 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c157sketch);
+}
+
 
 
 
