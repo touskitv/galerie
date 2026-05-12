@@ -211,8 +211,8 @@
   --c102sketch: url(assets/images/gentleman_01.png);
   --c103oeuvre: url(assets/images/giroux_sanglier_02.png);
   --c103sketch: url(assets/images/giroux_sanglier_01.png);
-  --c104oeuvre: url(assets/images/HOBBIT_02.png);
-  --c104sketch: url(assets/images/HOBBIT_01.png);
+  --c104oeuvre: url(assets/images/hobbit_02.png);
+  --c104sketch: url(assets/images/hobbit_01.png);
   --c105oeuvre: url(assets/images/ketorgonite_02.png);
   --c105sketch: url(assets/images/ketorgonite_01.png);
   --c106oeuvre: url(assets/images/petercopter_02.png);
@@ -313,14 +313,10 @@
   --c153sketch: url(assets/images/Moose_de_Nombril_01.png);
   --c154oeuvre: url(assets/images/premiere_diffusion_02.png);
   --c154sketch: url(assets/images/premiere_diffusion_01.png);
-  --c155oeuvre: url(assets/images/4ans_Moose_de_Nombril_02.png);
-  --c155sketch: url(assets/images/4ans_Moose_de_Nombril_01.png);
-  --c156oeuvre: url(assets/images/4ans_Moose_02.png);
-  --c156sketch: url(assets/images/4ans_Moose_01.png);
-  --c157oeuvre: url(assets/images/4ans_moose_02.png);
-  --c157sketch: url(assets/images/4ans_moose_01.png);
-  --c158oeuvre: url(assets/images/4ans_marieloup_02.png);
-  --c158sketch: url(assets/images/4ans_marieloup_01.png);
+  --c155oeuvre: url(assets/images/4ans_moose_02.png);
+  --c155sketch: url(assets/images/4ans_moose_01.png);
+  --c156oeuvre: url(assets/images/4ans_marieloup_02.png);
+  --c156sketch: url(assets/images/4ans_marieloup_01.png);
 }
 
 .tableau {
@@ -2126,26 +2122,6 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c156sketch);
-}
-.oeuvre.c157 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c157oeuvre);
-}
-.sketch.c157 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c157sketch);
-}
-.oeuvre.c158 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c158oeuvre);
-}
-.sketch.c158 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c158sketch);
 }
 
 
