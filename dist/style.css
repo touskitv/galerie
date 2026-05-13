@@ -317,6 +317,10 @@
   --c155sketch: url(assets/images/4ans_moose_01.png);
   --c156oeuvre: url(assets/images/4ans_marieloup_02.png);
   --c156sketch: url(assets/images/4ans_marieloup_01.png);
+  --c157oeuvre: url(assets/images/4ans_au_voleur_02.png);
+  --c157sketch: url(assets/images/4ans_au_voleur_01.png);
+  --c158oeuvre: url(assets/images/4ans_brute_02.png);
+  --c158sketch: url(assets/images/4ans_brute_01.png);
 }
 
 .tableau {
@@ -2123,6 +2127,28 @@
   --color1: var(--carte2);
   --tableau: var(--c156sketch);
 }
+.oeuvre.c157 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c157oeuvre);
+}
+.sketch.c157 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c157sketch);
+}
+
+.oeuvre.c158 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c158oeuvre);
+}
+.sketch.c158 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c158sketch);
+}
+
 
 
 
