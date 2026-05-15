@@ -321,6 +321,8 @@
   --c157sketch: url(assets/images/4ans_au_voleur_01.png);
   --c158oeuvre: url(assets/images/4ans_brute_02.png);
   --c158sketch: url(assets/images/4ans_brute_01.png);
+  --c159oeuvre: url(assets/images/chasse_aux_oeuvres_02.png);
+  --c159sketch: url(assets/images/chasse_aux_oeuvres_01.png);
 }
 
 .tableau {
@@ -2148,6 +2150,17 @@
   --color1: var(--carte2);
   --tableau: var(--c158sketch);
 }
+.oeuvre.c159 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c159oeuvre);
+}
+.sketch.c159 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c159sketch);
+}
+
 
 
 
