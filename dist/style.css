@@ -327,6 +327,12 @@
   --c160sketch: url(assets/images/teeko2_01.png);
   --c161oeuvre: url(assets/images/4ans_animabrute_02.png);
   --c161sketch: url(assets/images/4ans_animabrute_01.png);
+  --c162oeuvre: url(assets/images/diversite_02.png);
+  --c162sketch: url(assets/images/diversite_01.png);
+  --c163oeuvre: url(assets/images/gloglorak_02.png);
+  --c163sketch: url(assets/images/gloglorak_01.png);
+  --c164oeuvre: url(assets/images/sebastien_02.png);
+  --c164sketch: url(assets/images/sebastien_01.png);
 }
 
 .tableau {
@@ -2184,6 +2190,39 @@
   --color1: var(--carte2);
   --tableau: var(--c161sketch);
 }
+.oeuvre.c162 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c162oeuvre);
+}
+.sketch.c162 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c162sketch);
+}
+
+.oeuvre.c163 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c163oeuvre);
+}
+.sketch.c163 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c163sketch);
+}
+
+.oeuvre.c164 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c164oeuvre);
+}
+.sketch.c164 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c164sketch);
+}
+
 
 
 
