@@ -333,6 +333,8 @@
   --c163sketch: url(assets/images/gloglorak_01.png);
   --c164oeuvre: url(assets/images/sebastien_02.png);
   --c164sketch: url(assets/images/sebastien_01.png);
+  --c165oeuvre: url(assets/images/raccoin_02.png);
+  --c165sketch: url(assets/images/raccoin_01.png);
 }
 
 .tableau {
@@ -2222,6 +2224,17 @@
   --color1: var(--carte2);
   --tableau: var(--c164sketch);
 }
+.oeuvre.c165 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c165oeuvre);
+}
+.sketch.c165 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c165sketch);
+}
+
 
 
 
