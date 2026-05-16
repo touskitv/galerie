@@ -323,6 +323,8 @@
   --c158sketch: url(assets/images/4ans_brute_01.png);
   --c159oeuvre: url(assets/images/chasse_aux_oeuvres_02.png);
   --c159sketch: url(assets/images/chasse_aux_oeuvres_01.png);
+  --c160oeuvre: url(assets/images/teeko2_02.png);
+  --c160sketch: url(assets/images/teeko2_01.png);
 }
 
 .tableau {
@@ -2160,6 +2162,17 @@
   --color1: var(--carte2);
   --tableau: var(--c159sketch);
 }
+.oeuvre.c160 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c160oeuvre);
+}
+.sketch.c160 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c160sketch);
+}
+
 
 
 
