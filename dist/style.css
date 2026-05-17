@@ -297,36 +297,34 @@
   --c145sketch: url(assets/images/etoile_de_trump_01.png);
   --c146oeuvre: url(assets/images/4ans_diskelda_cafe_02.png);
   --c146sketch: url(assets/images/4ans_diskelda_cafe_01.png);
-  --c147oeuvre: url(assets/images/4ans_missbetthyBT_02.png);
-  --c147sketch: url(assets/images/4ans_missbetthyBT_01.png);
-  --c148oeuvre: url(assets/images/4ans_missbetthy_02.png);
-  --c148sketch: url(assets/images/4ans_missbetthy_01.png);
-  --c149oeuvre: url(assets/images/4ans_missbetthy_bt_02.png);
-  --c149sketch: url(assets/images/4ans_missbetthy_bt_01.png);
-  --c150oeuvre: url(assets/images/mmelitchi_gab_02.png);
-  --c150sketch: url(assets/images/mmelitchi_gab_01.png);
-  --c151oeuvre: url(assets/images/4ans_lulubleu_zelda_02.png);
-  --c151sketch: url(assets/images/4ans_lulubleu_zelda_01.png);
-  --c152oeuvre: url(assets/images/orgonite4ans_02.png);
-  --c152sketch: url(assets/images/orgonite4ans_01.png);
-  --c153oeuvre: url(assets/images/Moose_de_Nombril_02.png);
-  --c153sketch: url(assets/images/Moose_de_Nombril_01.png);
-  --c154oeuvre: url(assets/images/premiere_diffusion_02.png);
-  --c154sketch: url(assets/images/premiere_diffusion_01.png);
-  --c155oeuvre: url(assets/images/4ans_moose_02.png);
-  --c155sketch: url(assets/images/4ans_moose_01.png);
-  --c156oeuvre: url(assets/images/4ans_marieloup_02.png);
-  --c156sketch: url(assets/images/4ans_marieloup_01.png);
-  --c157oeuvre: url(assets/images/4ans_au_voleur_02.png);
-  --c157sketch: url(assets/images/4ans_au_voleur_01.png);
-  --c158oeuvre: url(assets/images/4ans_brute_02.png);
-  --c158sketch: url(assets/images/4ans_brute_01.png);
-  --c159oeuvre: url(assets/images/chasse_aux_oeuvres_02.png);
-  --c159sketch: url(assets/images/chasse_aux_oeuvres_01.png);
-  --c160oeuvre: url(assets/images/teeko2_02.png);
-  --c160sketch: url(assets/images/teeko2_01.png);
-  --c161oeuvre: url(assets/images/4ans_animabrute_02.png);
-  --c161sketch: url(assets/images/4ans_animabrute_01.png);
+  --c147oeuvre: url(assets/images/4ans_missbetthy_02.png);
+  --c147sketch: url(assets/images/4ans_missbetthy_01.png);
+  --c148oeuvre: url(assets/images/4ans_missbetthy_bt_02.png);
+  --c148sketch: url(assets/images/4ans_missbetthy_bt_01.png);
+  --c149oeuvre: url(assets/images/mmelitchi_gab_02.png);
+  --c149sketch: url(assets/images/mmelitchi_gab_01.png);
+  --c150oeuvre: url(assets/images/4ans_lulubleu_zelda_02.png);
+  --c150sketch: url(assets/images/4ans_lulubleu_zelda_01.png);
+  --c151oeuvre: url(assets/images/orgonite4ans_02.png);
+  --c151sketch: url(assets/images/orgonite4ans_01.png);
+  --c152oeuvre: url(assets/images/Moose_de_Nombril_02.png);
+  --c152sketch: url(assets/images/Moose_de_Nombril_01.png);
+  --c153oeuvre: url(assets/images/premiere_diffusion_02.png);
+  --c153sketch: url(assets/images/premiere_diffusion_01.png);
+  --c154oeuvre: url(assets/images/4ans_moose_02.png);
+  --c154sketch: url(assets/images/4ans_moose_01.png);
+  --c155oeuvre: url(assets/images/4ans_marieloup_02.png);
+  --c155sketch: url(assets/images/4ans_marieloup_01.png);
+  --c156oeuvre: url(assets/images/4ans_au_voleur_02.png);
+  --c156sketch: url(assets/images/4ans_au_voleur_01.png);
+  --c157oeuvre: url(assets/images/4ans_brute_02.png);
+  --c157sketch: url(assets/images/4ans_brute_01.png);
+  --c158oeuvre: url(assets/images/chasse_aux_oeuvres_02.png);
+  --c158sketch: url(assets/images/chasse_aux_oeuvres_01.png);
+  --c159oeuvre: url(assets/images/teeko2_02.png);
+  --c159sketch: url(assets/images/teeko2_01.png);
+  --c160oeuvre: url(assets/images/4ans_animabrute_02.png);
+  --c160sketch: url(assets/images/4ans_animabrute_01.png);
 }
 
 .tableau {
@@ -2173,16 +2171,6 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --tableau: var(--c160sketch);
-}
-.oeuvre.c161 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c161oeuvre);
-}
-.sketch.c161 {
-  --color1: var(--carte1);
-  --color1: var(--carte2);
-  --tableau: var(--c161sketch);
 }
 
 
