@@ -339,6 +339,8 @@
   --c166sketch: url(assets/images/gaudet_a_bicyclette_01.png);
   --c167oeuvre: url(assets/images/toilette_mixte_02.png);
   --c167sketch: url(assets/images/toilette_mixte_01.png);
+  --c168oeuvre: url(assets/images/temps_dune_pause_02.png);
+  --c168sketch: url(assets/images/temps_dune_pause_01.png);
 }
 
 .tableau {
@@ -2258,6 +2260,17 @@
   --color1: var(--carte2);
   --tableau: var(--c167sketch);
 }
+.oeuvre.c168 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c168oeuvre);
+}
+.sketch.c168 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c168sketch);
+}
+
 
 
 
