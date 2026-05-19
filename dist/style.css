@@ -337,6 +337,8 @@
   --c165sketch: url(assets/images/raccoin_01.png);
   --c166oeuvre: url(assets/images/gaudet_a_bicyclette_02.png);
   --c166sketch: url(assets/images/gaudet_a_bicyclette_01.png);
+  --c167oeuvre: url(assets/images/toilette_mixte_02.png);
+  --c167sketch: url(assets/images/toilette_mixte_01.png);
 }
 
 .tableau {
@@ -2246,6 +2248,17 @@
   --color1: var(--carte2);
   --tableau: var(--c166sketch);
 }
+.oeuvre.c167 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c167oeuvre);
+}
+.sketch.c167 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c167sketch);
+}
+
 
 
 
