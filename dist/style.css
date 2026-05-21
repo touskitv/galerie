@@ -347,6 +347,8 @@
   --c170sketch: url(assets/images/brut33_01.png);
   --c171oeuvre: url(assets/images/grogu_02.png);
   --c171sketch: url(assets/images/grogu_01.png);
+  --c172oeuvre: url(assets/images/wzbot_02.png);
+  --c172sketch: url(assets/images/wzbot_01.png);
 }
 
 .tableau {
@@ -2308,6 +2310,17 @@
   --color1: var(--carte2);
   --tableau: var(--c171sketch);
 }
+.oeuvre.c172 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c172oeuvre);
+}
+.sketch.c172 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c172sketch);
+}
+
 
 
 
