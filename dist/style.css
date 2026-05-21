@@ -341,6 +341,12 @@
   --c167sketch: url(assets/images/toilette_mixte_01.png);
   --c168oeuvre: url(assets/images/temps_dune_pause_02.png);
   --c168sketch: url(assets/images/temps_dune_pause_01.png);
+  --c169oeuvre: url(assets/images/4ans_aquilontv_02.png);
+  --c169sketch: url(assets/images/4ans_aquilontv_01.png);
+  --c170oeuvre: url(assets/images/brut33_02.png);
+  --c170sketch: url(assets/images/brut33_01.png);
+  --c171oeuvre: url(assets/images/grogu_02.png);
+  --c171sketch: url(assets/images/grogu_01.png);
 }
 
 .tableau {
@@ -2270,6 +2276,39 @@
   --color1: var(--carte2);
   --tableau: var(--c168sketch);
 }
+.oeuvre.c169 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c169oeuvre);
+}
+.sketch.c169 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c169sketch);
+}
+
+.oeuvre.c170 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c170oeuvre);
+}
+.sketch.c170 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c170sketch);
+}
+
+.oeuvre.c171 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c171oeuvre);
+}
+.sketch.c171 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c171sketch);
+}
+
 
 
 
