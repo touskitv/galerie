@@ -365,6 +365,8 @@
   --c179sketch: url(assets/images/touskisims_01.png);
   --c180oeuvre: url(assets/images/wikiste_02.png);
   --c180sketch: url(assets/images/wikiste_01.png);
+  --c181oeuvre: url(assets/images/victoire_02.png);
+  --c181sketch: url(assets/images/victoire_01.png);
 }
 
 .tableau {
@@ -2423,6 +2425,17 @@
   --color1: var(--carte2);
   --tableau: var(--c180sketch);
 }
+.oeuvre.c181 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c181oeuvre);
+}
+.sketch.c181 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c181sketch);
+}
+
 
 
 
