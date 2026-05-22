@@ -367,6 +367,10 @@
   --c180sketch: url(assets/images/wikiste_01.png);
   --c181oeuvre: url(assets/images/victoire_02.png);
   --c181sketch: url(assets/images/victoire_01.png);
+  --c182oeuvre: url(assets/images/ch_02.png);
+  --c182sketch: url(assets/images/ch_01.png);
+  --c183oeuvre: url(assets/images/slap_shot_02.png);
+  --c183sketch: url(assets/images/slap_shot_01.png);
 }
 
 .tableau {
@@ -2435,6 +2439,28 @@
   --color1: var(--carte2);
   --tableau: var(--c181sketch);
 }
+.oeuvre.c182 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c182oeuvre);
+}
+.sketch.c182 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c182sketch);
+}
+
+.oeuvre.c183 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c183oeuvre);
+}
+.sketch.c183 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c183sketch);
+}
+
 
 
 
