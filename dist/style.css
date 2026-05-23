@@ -371,6 +371,8 @@
   --c182sketch: url(assets/images/ch_01.png);
   --c183oeuvre: url(assets/images/slap_shot_02.png);
   --c183sketch: url(assets/images/slap_shot_01.png);
+  --c184oeuvre: url(assets/images/train_du_nord_02.png);
+  --c184sketch: url(assets/images/train_du_nord_01.png);
 }
 
 .tableau {
@@ -2460,6 +2462,17 @@
   --color1: var(--carte2);
   --tableau: var(--c183sketch);
 }
+.oeuvre.c184 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c184oeuvre);
+}
+.sketch.c184 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c184sketch);
+}
+
 
 
 
