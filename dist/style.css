@@ -373,6 +373,16 @@
   --c183sketch: url(assets/images/slap_shot_01.png);
   --c184oeuvre: url(assets/images/train_du_nord_02.png);
   --c184sketch: url(assets/images/train_du_nord_01.png);
+  --c185oeuvre: url(assets/images/dead_men_dont_rape_02.png);
+  --c185sketch: url(assets/images/dead_men_dont_rape_01.png);
+  --c186oeuvre: url(assets/images/idiocracy_02.png);
+  --c186sketch: url(assets/images/idiocracy_01.png);
+  --c187oeuvre: url(assets/images/robocop_02.png);
+  --c187sketch: url(assets/images/robocop_01.png);
+  --c188oeuvre: url(assets/images/vendetta_02.png);
+  --c188sketch: url(assets/images/vendetta_01.png);
+  --c189oeuvre: url(assets/images/voyage2_02.png);
+  --c189sketch: url(assets/images/voyage2_01.png);
 }
 
 .tableau {
@@ -2472,6 +2482,61 @@
   --color1: var(--carte2);
   --tableau: var(--c184sketch);
 }
+.oeuvre.c185 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c185oeuvre);
+}
+.sketch.c185 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c185sketch);
+}
+
+.oeuvre.c186 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c186oeuvre);
+}
+.sketch.c186 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c186sketch);
+}
+
+.oeuvre.c187 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c187oeuvre);
+}
+.sketch.c187 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c187sketch);
+}
+
+.oeuvre.c188 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c188oeuvre);
+}
+.sketch.c188 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c188sketch);
+}
+
+.oeuvre.c189 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c189oeuvre);
+}
+.sketch.c189 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c189sketch);
+}
+
 
 
 
