@@ -427,6 +427,10 @@
   --c210sketch: url(assets/images/sweatshop_01.png);
   --c211oeuvre: url(assets/images/tesla_02.png);
   --c211sketch: url(assets/images/tesla_01.png);
+  --c212oeuvre: url(assets/images/columbo_02.png);
+  --c212sketch: url(assets/images/columbo_01.png);
+  --c213oeuvre: url(assets/images/stormtrooper_02.png);
+  --c213sketch: url(assets/images/stormtrooper_01.png);
 }
 
 .tableau {
@@ -2820,6 +2824,28 @@
   --color1: var(--carte2);
   --tableau: var(--c211sketch);
 }
+.oeuvre.c212 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c212oeuvre);
+}
+.sketch.c212 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c212sketch);
+}
+
+.oeuvre.c213 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c213oeuvre);
+}
+.sketch.c213 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c213sketch);
+}
+
 
 
 
