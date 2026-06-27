@@ -459,6 +459,8 @@
   --c226sketch: url(assets/images/support_01.png);
   --c227oeuvre: url(assets/images/université_02.png);
   --c227sketch: url(assets/images/université_01.png);
+  --c228oeuvre: url(assets/images/tristan_02.png);
+  --c228sketch: url(assets/images/tristan_01.png);
 }
 
 .tableau {
@@ -3026,6 +3028,17 @@
   --color1: var(--carte2);
   --tableau: var(--c227sketch);
 }
+.oeuvre.c228 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c228oeuvre);
+}
+.sketch.c228 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c228sketch);
+}
+
 
 
 
