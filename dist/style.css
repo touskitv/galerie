@@ -463,6 +463,8 @@
   --c228sketch: url(assets/images/tristan_01.png);
   --c229oeuvre: url(assets/images/plat_dbines_02.png);
   --c229sketch: url(assets/images/plat_dbines_01.png);
+  --c230oeuvre: url(assets/images/1000_02.png);
+  --c230sketch: url(assets/images/1000_01.png);
 }
 
 .tableau {
@@ -3050,6 +3052,17 @@
   --color1: var(--carte2);
   --tableau: var(--c229sketch);
 }
+.oeuvre.c230 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c230oeuvre);
+}
+.sketch.c230 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c230sketch);
+}
+
 
 
 
