@@ -465,6 +465,14 @@
   --c229sketch: url(assets/images/plat_dbines_01.png);
   --c230oeuvre: url(assets/images/1000_02.png);
   --c230sketch: url(assets/images/1000_01.png);
+  --c231oeuvre: url(assets/images/forf_rien_02.png);
+  --c231sketch: url(assets/images/forf_rien_01.png);
+  --c232oeuvre: url(assets/images/lapetitevie_02.png);
+  --c232sketch: url(assets/images/lapetitevie_01.png);
+  --c233oeuvre: url(assets/images/marc_messier_02.png);
+  --c233sketch: url(assets/images/marc_messier_01.png);
+  --c234oeuvre: url(assets/images/unecite_02.png);
+  --c234sketch: url(assets/images/unecite_01.png);
 }
 
 .tableau {
@@ -3062,6 +3070,50 @@
   --color1: var(--carte2);
   --tableau: var(--c230sketch);
 }
+.oeuvre.c231 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c231oeuvre);
+}
+.sketch.c231 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c231sketch);
+}
+
+.oeuvre.c232 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c232oeuvre);
+}
+.sketch.c232 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c232sketch);
+}
+
+.oeuvre.c233 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c233oeuvre);
+}
+.sketch.c233 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c233sketch);
+}
+
+.oeuvre.c234 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c234oeuvre);
+}
+.sketch.c234 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c234sketch);
+}
+
 
 
 
