@@ -489,6 +489,8 @@
   --c241sketch: url(assets/images/traverserlarue_01.png);
   --c242oeuvre: url(assets/images/whipettate_02.png);
   --c242sketch: url(assets/images/whipettate_01.png);
+  --c243oeuvre: url(assets/images/300_02.png);
+  --c243sketch: url(assets/images/300_01.png);
 }
 
 .tableau {
@@ -3216,6 +3218,17 @@
   --color1: var(--carte2);
   --tableau: var(--c242sketch);
 }
+.oeuvre.c243 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c243oeuvre);
+}
+.sketch.c243 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c243sketch);
+}
+
 
 
 
