@@ -491,6 +491,8 @@
   --c242sketch: url(assets/images/whipettate_01.png);
   --c243oeuvre: url(assets/images/300_02.png);
   --c243sketch: url(assets/images/300_01.png);
+  --c244oeuvre: url(assets/images/noirceur_02.png);
+  --c244sketch: url(assets/images/noirceur_01.png);
 }
 
 .tableau {
@@ -3228,6 +3230,17 @@
   --color1: var(--carte2);
   --tableau: var(--c243sketch);
 }
+.oeuvre.c244 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c244oeuvre);
+}
+.sketch.c244 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c244sketch);
+}
+
 
 
 
