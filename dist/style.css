@@ -493,6 +493,14 @@
   --c243sketch: url(assets/images/300_01.png);
   --c244oeuvre: url(assets/images/noirceur_02.png);
   --c244sketch: url(assets/images/noirceur_01.png);
+  --c245oeuvre: url(assets/images/expos_02.png);
+  --c245sketch: url(assets/images/expos_01.png);
+  --c246oeuvre: url(assets/images/gaudet2026_02.png);
+  --c246sketch: url(assets/images/gaudet2026_01.png);
+  --c247oeuvre: url(assets/images/illuminnes_02.png);
+  --c247sketch: url(assets/images/illuminnes_01.png);
+  --c248oeuvre: url(assets/images/lexicomania_02.png);
+  --c248sketch: url(assets/images/lexicomania_01.png);
 }
 
 .tableau {
@@ -3240,6 +3248,50 @@
   --color1: var(--carte2);
   --tableau: var(--c244sketch);
 }
+.oeuvre.c245 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c245oeuvre);
+}
+.sketch.c245 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c245sketch);
+}
+
+.oeuvre.c246 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c246oeuvre);
+}
+.sketch.c246 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c246sketch);
+}
+
+.oeuvre.c247 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c247oeuvre);
+}
+.sketch.c247 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c247sketch);
+}
+
+.oeuvre.c248 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c248oeuvre);
+}
+.sketch.c248 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c248sketch);
+}
+
 
 
 
