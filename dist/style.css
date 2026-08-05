@@ -501,6 +501,8 @@
   --c247sketch: url(assets/images/illuminnes_01.png);
   --c248oeuvre: url(assets/images/lexicomania_02.png);
   --c248sketch: url(assets/images/lexicomania_01.png);
+  --c249oeuvre: url(assets/images/louiseville_02.png);
+  --c249sketch: url(assets/images/louiseville_01.png);
 }
 
 .tableau {
@@ -3291,6 +3293,17 @@
   --color1: var(--carte2);
   --tableau: var(--c248sketch);
 }
+.oeuvre.c249 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c249oeuvre);
+}
+.sketch.c249 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c249sketch);
+}
+
 
 
 
