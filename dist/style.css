@@ -507,6 +507,8 @@
   --c250sketch: url(assets/images/devotional_01.png);
   --c251oeuvre: url(assets/images/greendscreen_02.png);
   --c251sketch: url(assets/images/greendscreen_01.png);
+  --c252oeuvre: url(assets/images/mutegaudet_02.png);
+  --c252sketch: url(assets/images/mutegaudet_01.png);
 }
 
 .tableau {
@@ -3328,6 +3330,17 @@
   --color1: var(--carte2);
   --tableau: var(--c251sketch);
 }
+.oeuvre.c252 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c252oeuvre);
+}
+.sketch.c252 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c252sketch);
+}
+
 
 
 
