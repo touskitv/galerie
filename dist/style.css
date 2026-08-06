@@ -503,6 +503,10 @@
   --c248sketch: url(assets/images/lexicomania_01.png);
   --c249oeuvre: url(assets/images/louiseville_02.png);
   --c249sketch: url(assets/images/louiseville_01.png);
+  --c250oeuvre: url(assets/images/devotional_02.png);
+  --c250sketch: url(assets/images/devotional_01.png);
+  --c251oeuvre: url(assets/images/greendscreen_02.png);
+  --c251sketch: url(assets/images/greendscreen_01.png);
 }
 
 .tableau {
@@ -3303,6 +3307,28 @@
   --color1: var(--carte2);
   --tableau: var(--c249sketch);
 }
+.oeuvre.c250 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c250oeuvre);
+}
+.sketch.c250 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c250sketch);
+}
+
+.oeuvre.c251 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c251oeuvre);
+}
+.sketch.c251 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c251sketch);
+}
+
 
 
 
