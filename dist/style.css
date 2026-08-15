@@ -511,6 +511,8 @@
   --c252sketch: url(assets/images/mutegaudet_01.png);
   --c253oeuvre: url(assets/images/pays_martin_02.png);
   --c253sketch: url(assets/images/pays_martin_01.png);
+  --c254oeuvre: url(assets/images/drew_02.png);
+  --c254sketch: url(assets/images/drew_01.png);
 }
 
 .tableau {
@@ -3352,6 +3354,17 @@
   --color1: var(--carte2);
   --tableau: var(--c253sketch);
 }
+.oeuvre.c254 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c254oeuvre);
+}
+.sketch.c254 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c254sketch);
+}
+
 
 
 
