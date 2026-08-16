@@ -513,6 +513,10 @@
   --c253sketch: url(assets/images/pays_martin_01.png);
   --c254oeuvre: url(assets/images/drew_02.png);
   --c254sketch: url(assets/images/drew_01.png);
+  --c255oeuvre: url(assets/images/defi8h_02.png);
+  --c255sketch: url(assets/images/defi8h_01.png);
+  --c256oeuvre: url(assets/images/gaspesie_02.png);
+  --c256sketch: url(assets/images/gaspesie_01.png);
 }
 
 .tableau {
@@ -3364,6 +3368,28 @@
   --color1: var(--carte2);
   --tableau: var(--c254sketch);
 }
+.oeuvre.c255 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c255oeuvre);
+}
+.sketch.c255 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c255sketch);
+}
+
+.oeuvre.c256 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c256oeuvre);
+}
+.sketch.c256 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c256sketch);
+}
+
 
 
 
