@@ -517,6 +517,8 @@
   --c255sketch: url(assets/images/defi8h_01.png);
   --c256oeuvre: url(assets/images/gaspesie_02.png);
   --c256sketch: url(assets/images/gaspesie_01.png);
+  --c257oeuvre: url(assets/images/billy_02.png);
+  --c257sketch: url(assets/images/billy_01.png);
 }
 
 .tableau {
@@ -3389,6 +3391,17 @@
   --color1: var(--carte2);
   --tableau: var(--c256sketch);
 }
+.oeuvre.c257 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c257oeuvre);
+}
+.sketch.c257 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c257sketch);
+}
+
 
 
 
