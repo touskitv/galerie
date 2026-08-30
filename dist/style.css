@@ -519,6 +519,10 @@
   --c256sketch: url(assets/images/gaspesie_01.png);
   --c257oeuvre: url(assets/images/billy_02.png);
   --c257sketch: url(assets/images/billy_01.png);
+  --c258oeuvre: url(assets/images/tim_curry_02.png);
+  --c258sketch: url(assets/images/tim_curry_01.png);
+  --c259oeuvre: url(assets/images/toxic_02.png);
+  --c259sketch: url(assets/images/toxic_01.png);
 }
 
 .tableau {
@@ -3401,6 +3405,28 @@
   --color1: var(--carte2);
   --tableau: var(--c257sketch);
 }
+.oeuvre.c258 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c258oeuvre);
+}
+.sketch.c258 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c258sketch);
+}
+
+.oeuvre.c259 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c259oeuvre);
+}
+.sketch.c259 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c259sketch);
+}
+
 
 
 
