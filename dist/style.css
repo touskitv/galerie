@@ -523,6 +523,14 @@
   --c258sketch: url(assets/images/tim_curry_01.png);
   --c259oeuvre: url(assets/images/toxic_02.png);
   --c259sketch: url(assets/images/toxic_01.png);
+  --c260oeuvre: url(assets/images/compteur_deau_02.png);
+  --c260sketch: url(assets/images/compteur_deau_01.png);
+  --c261oeuvre: url(assets/images/granderentree_02.png);
+  --c261sketch: url(assets/images/granderentree_01.png);
+  --c262oeuvre: url(assets/images/marathon2_02.png);
+  --c262sketch: url(assets/images/marathon2_01.png);
+  --c263oeuvre: url(assets/images/rush_02.png);
+  --c263sketch: url(assets/images/rush_01.png);
 }
 
 .tableau {
@@ -3426,6 +3434,50 @@
   --color1: var(--carte2);
   --tableau: var(--c259sketch);
 }
+.oeuvre.c260 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c260oeuvre);
+}
+.sketch.c260 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c260sketch);
+}
+
+.oeuvre.c261 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c261oeuvre);
+}
+.sketch.c261 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c261sketch);
+}
+
+.oeuvre.c262 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c262oeuvre);
+}
+.sketch.c262 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c262sketch);
+}
+
+.oeuvre.c263 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c263oeuvre);
+}
+.sketch.c263 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c263sketch);
+}
+
 
 
 
