@@ -531,6 +531,8 @@
   --c262sketch: url(assets/images/marathon2_01.png);
   --c263oeuvre: url(assets/images/rush_02.png);
   --c263sketch: url(assets/images/rush_01.png);
+  --c264oeuvre: url(assets/images/superdave_02.png);
+  --c264sketch: url(assets/images/superdave_01.png);
 }
 
 .tableau {
@@ -3477,6 +3479,17 @@
   --color1: var(--carte2);
   --tableau: var(--c263sketch);
 }
+.oeuvre.c264 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c264oeuvre);
+}
+.sketch.c264 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c264sketch);
+}
+
 
 
 
