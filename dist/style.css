@@ -533,6 +533,10 @@
   --c263sketch: url(assets/images/rush_01.png);
   --c264oeuvre: url(assets/images/superdave_02.png);
   --c264sketch: url(assets/images/superdave_01.png);
+  --c265oeuvre: url(assets/images/chefbob_02.png);
+  --c265sketch: url(assets/images/chefbob_01.png);
+  --c266oeuvre: url(assets/images/galacticracer_02.png);
+  --c266sketch: url(assets/images/galacticracer_01.png);
 }
 
 .tableau {
@@ -3489,6 +3493,28 @@
   --color1: var(--carte2);
   --tableau: var(--c264sketch);
 }
+.oeuvre.c265 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c265oeuvre);
+}
+.sketch.c265 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c265sketch);
+}
+
+.oeuvre.c266 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c266oeuvre);
+}
+.sketch.c266 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c266sketch);
+}
+
 
 
 
