@@ -569,6 +569,16 @@
   --c281sketch: url(assets/images/jimothy_01.png);
   --c282oeuvre: url(assets/images/valentine_02.png);
   --c282sketch: url(assets/images/valentine_01.png);
+  --c283oeuvre: url(assets/images/desparrowshow01_02.png);
+  --c283sketch: url(assets/images/desparrowshow01_01.png);
+  --c284oeuvre: url(assets/images/desparrowshow02_02.png);
+  --c284sketch: url(assets/images/desparrowshow02_01.png);
+  --c285oeuvre: url(assets/images/desparrowshow03_02.png);
+  --c285sketch: url(assets/images/desparrowshow03_01.png);
+  --c286oeuvre: url(assets/images/desparrowshow04_02.png);
+  --c286sketch: url(assets/images/desparrowshow04_01.png);
+  --c287oeuvre: url(assets/images/gloglothon21_02.png);
+  --c287sketch: url(assets/images/gloglothon21_01.png);
 }
 
 .tableau {
@@ -3720,6 +3730,61 @@
   --color1: var(--carte2);
   --tableau: var(--c282sketch);
 }
+.oeuvre.c283 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c283oeuvre);
+}
+.sketch.c283 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c283sketch);
+}
+
+.oeuvre.c284 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c284oeuvre);
+}
+.sketch.c284 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c284sketch);
+}
+
+.oeuvre.c285 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c285oeuvre);
+}
+.sketch.c285 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c285sketch);
+}
+
+.oeuvre.c286 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c286oeuvre);
+}
+.sketch.c286 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c286sketch);
+}
+
+.oeuvre.c287 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c287oeuvre);
+}
+.sketch.c287 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c287sketch);
+}
+
 
 
 
