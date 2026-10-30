@@ -579,6 +579,14 @@
   --c286sketch: url(assets/images/desparrowshow04_01.png);
   --c287oeuvre: url(assets/images/gloglothon21_02.png);
   --c287sketch: url(assets/images/gloglothon21_01.png);
+  --c288oeuvre: url(assets/images/anginedeburban_02.png);
+  --c288sketch: url(assets/images/anginedeburban_01.png);
+  --c289oeuvre: url(assets/images/mm7_02.png);
+  --c289sketch: url(assets/images/mm7_01.png);
+  --c290oeuvre: url(assets/images/scream_02.png);
+  --c290sketch: url(assets/images/scream_01.png);
+  --c291oeuvre: url(assets/images/tapetotape_02.png);
+  --c291sketch: url(assets/images/tapetotape_01.png);
 }
 
 .tableau {
@@ -3784,6 +3792,50 @@
   --color1: var(--carte2);
   --tableau: var(--c287sketch);
 }
+.oeuvre.c288 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c288oeuvre);
+}
+.sketch.c288 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c288sketch);
+}
+
+.oeuvre.c289 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c289oeuvre);
+}
+.sketch.c289 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c289sketch);
+}
+
+.oeuvre.c290 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c290oeuvre);
+}
+.sketch.c290 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c290sketch);
+}
+
+.oeuvre.c291 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c291oeuvre);
+}
+.sketch.c291 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c291sketch);
+}
+
 
 
 
