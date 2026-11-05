@@ -587,6 +587,8 @@
   --c290sketch: url(assets/images/scream_01.png);
   --c291oeuvre: url(assets/images/tapetotape_02.png);
   --c291sketch: url(assets/images/tapetotape_01.png);
+  --c292oeuvre: url(assets/images/cleopatre_02.png);
+  --c292sketch: url(assets/images/cleopatre_01.png);
 }
 
 .tableau {
@@ -3835,6 +3837,17 @@
   --color1: var(--carte2);
   --tableau: var(--c291sketch);
 }
+.oeuvre.c292 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c292oeuvre);
+}
+.sketch.c292 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c292sketch);
+}
+
 
 
 
