@@ -589,6 +589,36 @@
   --c291sketch: url(assets/images/tapetotape_01.png);
   --c292oeuvre: url(assets/images/cleopatre_02.png);
   --c292sketch: url(assets/images/cleopatre_01.png);
+  --c293oeuvre: url(assets/images/cheval_02.png);
+  --c293sketch: url(assets/images/cheval_01.png);
+  --c294oeuvre: url(assets/images/noel2026010_02.png);
+  --c294sketch: url(assets/images/noel2026010_01.png);
+  --c295oeuvre: url(assets/images/noel202601_02.png);
+  --c295sketch: url(assets/images/noel202601_01.png);
+  --c296oeuvre: url(assets/images/noel202602_02.png);
+  --c296sketch: url(assets/images/noel202602_01.png);
+  --c297oeuvre: url(assets/images/noel202603_02.png);
+  --c297sketch: url(assets/images/noel202603_01.png);
+  --c298oeuvre: url(assets/images/noel202604_02.png);
+  --c298sketch: url(assets/images/noel202604_01.png);
+  --c299oeuvre: url(assets/images/noel202605_02.png);
+  --c299sketch: url(assets/images/noel202605_01.png);
+  --c300oeuvre: url(assets/images/noel202606_02.png);
+  --c300sketch: url(assets/images/noel202606_01.png);
+  --c301oeuvre: url(assets/images/noel202607_02.png);
+  --c301sketch: url(assets/images/noel202607_01.png);
+  --c302oeuvre: url(assets/images/noel202608_02.png);
+  --c302sketch: url(assets/images/noel202608_01.png);
+  --c303oeuvre: url(assets/images/noel202609_02.png);
+  --c303sketch: url(assets/images/noel202609_01.png);
+  --c304oeuvre: url(assets/images/pouceothon01_02.png);
+  --c304sketch: url(assets/images/pouceothon01_01.png);
+  --c305oeuvre: url(assets/images/pouceothon02_02.png);
+  --c305sketch: url(assets/images/pouceothon02_01.png);
+  --c306oeuvre: url(assets/images/pouceothon03_02.png);
+  --c306sketch: url(assets/images/pouceothon03_01.png);
+  --c307oeuvre: url(assets/images/pouceothon04_02.png);
+  --c307sketch: url(assets/images/pouceothon04_01.png);
 }
 
 .tableau {
@@ -3847,6 +3877,171 @@
   --color1: var(--carte2);
   --tableau: var(--c292sketch);
 }
+.oeuvre.c293 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c293oeuvre);
+}
+.sketch.c293 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c293sketch);
+}
+
+.oeuvre.c294 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c294oeuvre);
+}
+.sketch.c294 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c294sketch);
+}
+
+.oeuvre.c295 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c295oeuvre);
+}
+.sketch.c295 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c295sketch);
+}
+
+.oeuvre.c296 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c296oeuvre);
+}
+.sketch.c296 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c296sketch);
+}
+
+.oeuvre.c297 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c297oeuvre);
+}
+.sketch.c297 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c297sketch);
+}
+
+.oeuvre.c298 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c298oeuvre);
+}
+.sketch.c298 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c298sketch);
+}
+
+.oeuvre.c299 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c299oeuvre);
+}
+.sketch.c299 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c299sketch);
+}
+
+.oeuvre.c300 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c300oeuvre);
+}
+.sketch.c300 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c300sketch);
+}
+
+.oeuvre.c301 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c301oeuvre);
+}
+.sketch.c301 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c301sketch);
+}
+
+.oeuvre.c302 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c302oeuvre);
+}
+.sketch.c302 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c302sketch);
+}
+
+.oeuvre.c303 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c303oeuvre);
+}
+.sketch.c303 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c303sketch);
+}
+
+.oeuvre.c304 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c304oeuvre);
+}
+.sketch.c304 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c304sketch);
+}
+
+.oeuvre.c305 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c305oeuvre);
+}
+.sketch.c305 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c305sketch);
+}
+
+.oeuvre.c306 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c306oeuvre);
+}
+.sketch.c306 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c306sketch);
+}
+
+.oeuvre.c307 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c307oeuvre);
+}
+.sketch.c307 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --tableau: var(--c307sketch);
+}
+
 
 
 
